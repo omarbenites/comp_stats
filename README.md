@@ -10,3 +10,8 @@ This repository is for learning purpouses. It covers from set theory to more adv
 ## Probabilty
 
 - TBD
+
+## Inference
+
+- sample mean
+- sample variance
