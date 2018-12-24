@@ -18,4 +18,13 @@ This repository is for learning purpouses. It covers from set theory to more adv
 
 ## Probabilty
 
+<<<<<<< HEAD
 - 
+=======
+- TBD
+
+## Inference
+
+- sample mean
+- sample variance
+>>>>>>> c0b6569b25931488717a3d38a8f1b53475cb5d82
