@@ -4,27 +4,29 @@ This repository is for learning purpouses. It covers from set theory to more adv
 
 ## Set Theory
 
-- Union sets
-- Intersection sets
+- [x] Union sets (in `R`)
+- [x] Intersection sets (in `R`)
 
-## Statistics
+## Desc. Statistics
 
-- Mean (`media.cpp` and `variance.R`)
-- Varianze (`variance.cpp` and `variance.R`)
-- Standardization (`standardization.cpp` trough header files)
-- Range
-- Quartile
-- Interquartile range
-
-## Probabilty
-
-<<<<<<< HEAD
-- 
-=======
-- TBD
+- [x] Mean (`media.cpp` and `variance.R`)
+- [x] Varianze (`variance.cpp` and `variance.R`)
+- [x] Standardization (`standardization.cpp` trough header files)
+- [x] Range
+- [x] Quartile
+- [x] Interquartile range
 
 ## Inference
 
-- sample mean
-- sample variance
->>>>>>> c0b6569b25931488717a3d38a8f1b53475cb5d82
+- [] t test
+- [] TBD
+
+## Probabilty
+
+- [] Bernoulli and Uniform distribution (R and cpp)
+- [] Poisson and Geomtric distribution (R and cpp)
+- [] Gamma and Beta distribution (R and cpp)
+
+
+
+
