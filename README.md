@@ -12,21 +12,17 @@ This repository is for learning purpouses. It covers from set theory to more adv
 - [x] Mean (`media.cpp` and `variance.R`)
 - [x] Varianze (`variance.cpp` and `variance.R`)
 - [x] Standardization (`standardization.cpp` trough header files)
-- [x] Range
-- [x] Quartile
-- [x] Interquartile range
+- [x] Range (`range.cpp`)
+- [ ] Percentile
+- [ ] Interquartile range
 
 ## Inference
 
-- [] t test
-- [] TBD
+- [ ] t test
+- [ ] T.B.D
 
 ## Probabilty
 
-- [] Bernoulli and Uniform distribution (R and cpp)
-- [] Poisson and Geomtric distribution (R and cpp)
-- [] Gamma and Beta distribution (R and cpp)
-
-
-
-
+- [ ] Bernoulli and Uniform distribution (`R` and `cpp`)
+- [ ] Poisson and Geomtric distribution (`R` and `cpp`)
+- [ ] Gamma and Beta distribution (`R` and `cpp`)

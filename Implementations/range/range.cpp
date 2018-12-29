@@ -1,3 +1,7 @@
+/// Author: Omar Benites
+/// Algorithm to implement the spread measurement "range"
+/// Dec. 2018
+
 #include<iostream>
 #include<vector>
 
@@ -6,7 +10,6 @@ struct Range{
  double max_val;
  double min_val;
 };
-
 
 ///prototype
 double max_ele(std::vector<double> elements);
@@ -27,7 +30,7 @@ std::cout<<"Imprimir el minimo valor de un vector: "<< output.min_val<<std::endl
 return 0;
 }
 
-///definition of function
+///def. max element in a vector
 double max_ele(std::vector<double> elements)
 {
        double m = elements[0];
@@ -41,7 +44,7 @@ double max_ele(std::vector<double> elements)
        return(m);
 }
 
-///definition of function
+///def. min element in a vector
 double min_ele(std::vector<double> elements)
 {
        double m = elements[0];
@@ -55,9 +58,13 @@ double min_ele(std::vector<double> elements)
        return(m);
 }
 
-
+/// get range function
 Range get_range(Range rg, std::vector<double> elements){
     rg.max_val = max_ele(elements);
     rg.min_val = min_ele(elements);
     return rg;
 }
+
+/// References:
+/// How to use struct in functions 1: http://www.java2s.com/Tutorial/Cpp/0160__Structure/Returnstructurefromafunction.htm
+/// How to use struct in functions 2: http://www.java2s.com/Tutorial/Cpp/0160__Structure/Returnstructurefromafunction.htm
