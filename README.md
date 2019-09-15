@@ -22,7 +22,7 @@ This repository is for learning purpouses. It covers from set theory to more adv
 - [x] Percentile
 - [x] Interquartile range
 
-##Online Statistical ALgorithm
+## Online Statistical ALgorithm
 
 1. Variance algorithm
 - https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance
