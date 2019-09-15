@@ -1,0 +1,53 @@
+---
+title: "Probability: Binomial Distribution"
+output: html_notebook
+---
+
+## Binomial distribution in R
+
+We are going to use a simple example: a flip coin
+Assume a fair coin (50 percent of being 1 or 0), which 1 means face or success; and 0, means tail or fail.
+
+- *n*: number of draws of a single outcome variable
+- *size*: number of coins that we are going to draw or flip
+- *prob*: probabilit of being 1 (face or success)
+
+Here an example:
+
+- *n* : 1 (1 randon flip or draw)
+- *size* : 1
+- *prob*: 0.5
+
+```{r}
+rbinom(n = 1,size = 1,prob = 0.8)
+```
+
+## New cases
+
+### Case 1
+
+We flip once **(n=1)** 10 coins (**size = 10**) with a probability of 0.8 (**prob=0.8**). In R, we write:
+
+```{r}
+rbinom(n =1, size= 10, prob=0.8)
+```
+
+
+- The results, let say **9** (may chage in each run code) , means that the outcome of flipping **10** coins at once **(n=1)**, we obtain **9** faces with a probabilit of 0.8
+
+
+- El resultado, digamos 9 (puede variar en cada corrida), significa que al lanzar 10 monedas a la vez  (al mismo tiempo o **n=1**) podemos obtener 9 caras en total con una probabilidad de **prob=0.8**. 
+
+- De forma generica  podemos decir que podemos obtener 9 caras al lanzar 10 monedas a la vez con una probabilidad de obtener cara en cada moneda igual a **0.8**
+
+The beforementioned example coud be rewritten as:
+
+```{r}
+rbinom(n =10, size= 1, prob=0.8)
+```
+
+Aqui observamos que al lanzar 10 una sola moneda (size =1), obtenemos, por ejemplo **[1] 1 1 1 0 1 1 1 1 1**. Contando cada cara o exito de cada lanzamiento, contamos que 9 veces obtuvimos cara o exito en cada lanzamiento o evento.
+
+#TODO: PONER ESTE ULTIMO EJEMPLO COMO EL PRIMERO
+
+

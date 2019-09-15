@@ -1,0 +1,13 @@
+Variance algorithm
+https://en.wikipedia.org/wiki/Algorithms_for_calculating_variance
+Welford
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.302.7503&rep=rep1&type=pdf
+https://bayesfactor.blogspot.com/2016/05/numerical-pitfalls-in-computing-variance.html
+https://www.johndcook.com/blog/standard_deviation/
+https://github.com/SurajGupta/r-source/blob/a28e609e72ed7c47f6ddfbb86c85279a0750f0b7/src/library/stats/src/cov.c
+Summation algorithm
+https://en.wikipedia.org/wiki/Kahan_summation_algorithm
+Pairwise summation
+https://en.wikipedia.org/wiki/Pairwise_summation
+Recursion in Rcpp
+http://gallery.rcpp.org/articles/fibonacci-sequence/
